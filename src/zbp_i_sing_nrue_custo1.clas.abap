@@ -1,0 +1,5 @@
+CLASS zbp_i_sing_nrue_custo1 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_sing_nrue_custo1.
+ENDCLASS.
+
+CLASS zbp_i_sing_nrue_custo1 IMPLEMENTATION.
+ENDCLASS.

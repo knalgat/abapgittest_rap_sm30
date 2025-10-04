@@ -1,0 +1,24 @@
+projection;
+strict ( 2 );
+use draft;
+define behavior for ZC_SING_NRUE_CUSTO1 //alias <alias_name>
+{
+
+  use association _emp { create; with draft; }
+
+  use action Activate;
+  use action Discard;
+  use action Edit;
+  use action Prepare;
+  use action Resume;
+
+}
+
+define behavior for ZC_NRUE_CUSTO1 //alias <alias_name>
+use etag
+{
+  use update;
+  use delete;
+
+  use association _sEmp { with draft; }
+}

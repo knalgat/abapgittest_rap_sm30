@@ -1,0 +1,5 @@
+@EndUserText.label: 'Employee  data maintenance'
+define service ZSR_NRUE_CUSTO1_SM30 {
+  expose ZC_SING_NRUE_CUSTO1;
+  expose ZC_NRUE_CUSTO1;
+}
